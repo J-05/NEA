@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\kivy-prototype"
+    "\\kivy-prototype",
+    "\\kivy-prototype\\kivy-tutorials",
+    "\\kivy-prototype\\kivy-tutorials\\kv-language-practice",
+    "\\kivy-prototype\\kivy-tutorials\\mouse-touch-input"
   ],
-  "SelectedNode": "\\kivy-prototype\\kivy_tutorial_kv._lang.py",
+  "SelectedNode": "\\kivy-prototype\\kivy-tutorials\\mouse-touch-input\\myfloatlayout.kv",
   "PreviewInSolutionExplorer": false
 }
