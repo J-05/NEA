@@ -14,9 +14,9 @@ class MyGrid(Widget):
         self.name.text = ""
         self.name.text = ""
 
-class MyApp(App): #kivy will automatically  look for a kv file with the name my.kv
+class KvLangPractice(App): #kivy will automatically  look for a kv file with the name my.kv
     def build(self):
         return MyGrid()
 
 if __name__ == "__main__":
-    MyApp().run()
+    KvLangPractice().run()
