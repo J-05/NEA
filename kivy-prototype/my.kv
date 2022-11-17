@@ -1,0 +1,28 @@
+#specifies which class you are working with
+<MyGrid> 
+
+	#setup object properties to allow access to variables
+	name: nameVar
+
+
+	GridLayout:
+		cols: 1
+
+		#root refers to MyGrid
+		#overriding the default size of widgets
+		size: root.width, root.height
+
+		GridLayout:
+			cols: 2
+
+			Label:
+				text: "Name: "
+
+			TextInput:
+				#id will reference nameVar which references name
+				id: nameVar
+				multiline: False
+
+		Button:
+			text: "Submit"
+			on_press: root.button_activate()
