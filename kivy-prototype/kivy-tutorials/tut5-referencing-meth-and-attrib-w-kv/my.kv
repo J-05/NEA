@@ -1,0 +1,34 @@
+<MyGrid>
+	#setting up variables
+	#var name:var id
+	name:name
+	email:email_id
+
+	GridLayout:
+		cols:1
+		size: root.width-50, root.height-50
+		pos: 25, 25
+
+		GridLayout:
+			cols:2
+
+			Label:
+				text: "Name: "
+
+			TextInput:
+				id:name
+				multiline:False
+
+			Label:
+				text: "Email: "
+
+			TextInput:
+				id:email_id
+				multiline:False
+
+
+		Button:
+			text: "Submit" 
+
+			#reference pressed as a method from MyGrid
+			on_press:root.pressed()

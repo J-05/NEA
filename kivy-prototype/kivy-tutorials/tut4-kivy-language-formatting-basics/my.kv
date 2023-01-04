@@ -1,0 +1,35 @@
+#reference the class to be drawn onto the screen
+#kivy automatically looks for a corresponding kv file when run
+
+#defines what we're working with
+<MyGrid> 
+	GridLayout:
+		cols:1
+		#override default widget size
+		#root refereences to MyGrid
+		size: root.width - 100, root.height - 100
+		pos: 50, 50
+
+		GridLayout:
+			cols:2
+
+			Label:
+				text: "Firstname: "
+
+			TextInput:
+				multiline: False
+
+			Label:
+				text: "Lastname: "
+
+			TextInput:
+				multiline: False
+
+			Label: 
+				text: "Email: "
+
+			TextInput:
+				multiline: False
+	
+		Button:
+			text: "Submit"

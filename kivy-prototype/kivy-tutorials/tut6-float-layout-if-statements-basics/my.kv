@@ -1,0 +1,23 @@
+<Button>
+	font_size:40
+	#rgba values go from 0 and 1, alpha refers to opacity
+	color: 1, 0, 0, 1
+	#size starts at bottom left of button
+	size_hint: 0.4, 0.4
+
+
+
+#parent tag
+#all FloatLayout objects will possess the same properties as defined here
+<FloatLayout>
+	Button:
+		#pos hint argments (x, y, top, bottom, left, right)
+		pos_hint: {"x":0.5, "top":0.9}
+		text: "Hello"
+
+	Button:
+	#button states: normal, down
+		id:btn
+		pos_hint: {"x":0.1, "top":0.5}
+		text: "World" if btn.state == "normal" else "down"
+		background_color: 0.1, 0.5, 0.4
