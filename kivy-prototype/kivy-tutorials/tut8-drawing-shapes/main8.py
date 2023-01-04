@@ -13,7 +13,6 @@ class Touch(Widget):
             #to change colour, the colour of the canvas must be changed first then the shape can be drawn
             Color(1, 0, 0, 1, mode="rgba")
             self.rect = Rectangle(pos=(0,0), size=(50, 50))
-
             Line(points=(20, 30, 12, 400))
 
     def on_touch_down(self, touch):
