@@ -3,9 +3,9 @@
     "",
     "\\kivy-prototype",
     "\\kivy-prototype\\kivy-tutorials",
-    "\\kivy-prototype\\kivy-tutorials\\kv-language-practice",
-    "\\kivy-prototype\\kivy-tutorials\\mouse-touch-input"
+    "\\kivy-prototype\\kivy-tutorials\\tut1-intro",
+    "\\kivy-prototype\\kivy-tutorials\\tut2-"
   ],
-  "SelectedNode": "\\kivy-prototype\\kivy-tutorials\\mouse-touch-input\\myfloatlayout.kv",
+  "SelectedNode": "\\kivy-prototype\\kivy-tutorials\\tut2-\\main.py",
   "PreviewInSolutionExplorer": false
 }

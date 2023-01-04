@@ -5,6 +5,11 @@
       "taskLabel": "task-mouse_touch",
       "appliesTo": "kivy-prototype/kivy-tutorials/mouse-touch-input/mouse_touch.py",
       "type": "launch"
+    },
+    {
+      "taskLabel": "task-canvas",
+      "appliesTo": "kivy-prototype/kivy-tutorials/canvas/canvas.py",
+      "type": "launch"
     }
   ]
 }
