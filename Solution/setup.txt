@@ -1,0 +1,6 @@
+window_width;1200
+window_height;700
+toolwin_default_width;500
+toolwin_default_height;400
+toolbar_default_width;1000
+toolbar_default_height;200

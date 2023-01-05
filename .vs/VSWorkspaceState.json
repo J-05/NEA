@@ -2,10 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\kivy-prototype",
-    "\\kivy-prototype\\kivy-tutorials",
-    "\\kivy-prototype\\kivy-tutorials\\tut1-intro",
-    "\\kivy-prototype\\kivy-tutorials\\tut2-"
+    "\\kivy-prototype\\kivy-tests",
+    "\\kivy-prototype\\kivy-tests\\drawing"
   ],
-  "SelectedNode": "\\kivy-prototype\\kivy-tutorials\\tut2-\\main.py",
+  "SelectedNode": "\\kivy-prototype\\kivy-tests\\drawing\\main.py",
   "PreviewInSolutionExplorer": false
 }
