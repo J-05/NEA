@@ -3,8 +3,14 @@
     "",
     "\\kivy-prototype",
     "\\kivy-prototype\\kivy-tests",
-    "\\kivy-prototype\\kivy-tests\\drawing"
+    "\\kivy-prototype\\kivy-tests\\drawing",
+    "\\kivy-prototype\\kivy-tutorials",
+    "\\kivy-prototype\\kivy-tutorials\\tut5-referencing-meth-and-attrib-w-kv",
+    "\\kivy-prototype\\kivy-tutorials\\tut6-float-layout-if-statements-basics",
+    "\\kivy-prototype\\kivy-tutorials\\tut7-touch-methods",
+    "\\kivy-prototype\\kivy-tutorials\\tut8-drawing-shapes",
+    "\\kivy-prototype\\kivy-tutorials\\tut9-multiple-windows"
   ],
-  "SelectedNode": "\\kivy-prototype\\kivy-tests\\drawing\\main.py",
+  "SelectedNode": "\\kivy-prototype\\kivy-tutorials\\tut5-referencing-meth-and-attrib-w-kv\\my.kv",
   "PreviewInSolutionExplorer": false
 }
