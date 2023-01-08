@@ -4,12 +4,12 @@
     "\\kivy-prototype",
     "\\kivy-prototype\\kivy-tests",
     "\\kivy-prototype\\kivy-tests\\drawing",
+    "\\kivy-prototype\\kivy-tests\\drawing-with-stencil",
+    "\\kivy-prototype\\kivy-tests\\key-detection-sample",
+    "\\kivy-prototype\\kivy-tests\\stencil-sample",
     "\\kivy-prototype\\kivy-tutorials",
-    "\\kivy-prototype\\kivy-tutorials\\tut5-referencing-meth-and-attrib-w-kv",
-    "\\kivy-prototype\\kivy-tutorials\\tut6-float-layout-if-statements-basics",
-    "\\kivy-prototype\\kivy-tutorials\\tut7-touch-methods",
-    "\\kivy-prototype\\kivy-tutorials\\tut8-drawing-shapes",
-    "\\kivy-prototype\\kivy-tutorials\\tut9-multiple-windows"
+    "\\solution"
   ],
-  "PreviewInSolutionExplorer": false
+  "SelectedNode": "\\solution\\setup.txt",
+  "PreviewInSolutionExplorer": true
 }
