@@ -10,7 +10,6 @@ class Canvas(Widget):
 class MainStencil(StencilView):
 	def __init__(self, **kwargs):
 		super(MainStencil, self).__init__(**kwargs)
-
 		with self.canvas:
 			Color(1, 1, 1, 0.2)
 			Rectangle(pos=self.pos, size=self.size)
@@ -29,10 +28,8 @@ class MyApp(App):
 	def build(self):
 
 		root = FloatLayout()
-		#canvas = Canvas()
-		stencil = MainStencil(pos=(0, 0), size=(100, 100))
+		stencil = MainStencil(size_hint=(None, None), pos=(0, 0), size=(100, 100))
 
-		#root.add_widget(canvas)
 		root.add_widget(stencil)
 
 		return root

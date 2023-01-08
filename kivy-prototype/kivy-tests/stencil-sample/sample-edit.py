@@ -21,7 +21,6 @@ class StencilTestWidget(StencilView):
             Rectangle(size=self.size, pos=self.pos)
 
     def on_touch_down(self, touch):
-        print("uo")
         with self.canvas:
             Color(1, 1, 0, 1)
             d = 10

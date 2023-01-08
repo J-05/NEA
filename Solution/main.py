@@ -29,7 +29,32 @@ with open(os.path.join(sys.path[0], "setup.txt"), "r") as setup_file:
 
 class MainWindow(Screen):
     toolwin_width = setup_dict["toolwin_default_width"]
-    toolbar_height = setup_dict["toolbar_default_height"]
+    toolbar_height = setup_dict["toolbar_default_height"]        
+
+    def __init__(self, **kwargs):
+        super(MainWindow, self).__init__(**kwargs)
+
+        self.add_widget(MainCanvas())
+
+class WindowManager(ScreenManager):
+    pass
+
+class MainCanvas(StencilView):
+    def __init__(self, **kwargs):
+        super(MainCanvas, self).__init__(**kwargs)
+
+        width = setup_dict["window_width"] - (setup_dict["toolwin_default_width"] * 2)
+        height = setup_dict["window_height"] - (setup_dict["toolbar_default_height"] * 2)
+
+        print(f"width: {width}, height: {height}")
+
+        self.pos = ((setup_dict["window_width"] / 2) - width/2, (setup_dict["window_height"] / 2) - height/2)
+        self.size = (width, height)
+        self.size_hint = (None, None)
+
+        with self.canvas:
+            Color(1, 1, 1, 1)
+            Rectangle(pos=self.pos, size=self.size)
 
     def on_touch_down(self, touch):
         with self.canvas:
@@ -41,10 +66,6 @@ class MainWindow(Screen):
     def on_touch_move(self, touch):
         with self.canvas:
             touch.ud["Line"].points += [touch.x, touch.y]
-        
-
-class WindowManager(ScreenManager):
-    pass
 
 class Conjure(App):
     def build(self):
@@ -53,12 +74,8 @@ class Conjure(App):
 if __name__ == "__main__":    
 
     ##### APP RUN #####
+    #setup window size
     Config.set('graphics', 'width', setup_dict["window_width"])
     Config.set('graphics', 'height', setup_dict["window_height"])
 
-    print("hi")
-    print(setup_dict["toolwin_default_width"])
-
     Conjure().run()
-
-    print("end")
