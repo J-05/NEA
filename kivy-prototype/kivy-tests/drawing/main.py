@@ -1,9 +1,11 @@
 from kivy.app import App
 from kivy.uix.widget import Widget
 from kivy.graphics import Color, Ellipse, Line
+from kivy.uix.stencilview import StencilView
 
 class Canvas(Widget):
 	def on_touch_down(self, touch):
+		print("woo")
 		with self.canvas:
 			paint_circle(touch)
 			touch.ud["line"] = Line(points=((touch.x, touch.y)), width=10)
@@ -11,6 +13,7 @@ class Canvas(Widget):
 	def on_touch_move(self, touch):
 		with self.canvas:
 			touch.ud["line"].points += [touch.x, touch.y]
+
 
 			
 
