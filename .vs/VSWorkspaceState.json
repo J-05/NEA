@@ -3,13 +3,10 @@
     "",
     "\\kivy-prototype",
     "\\kivy-prototype\\kivy-tests",
+    "\\kivy-prototype\\kivy-tests\\colour-picker",
     "\\kivy-prototype\\kivy-tests\\drawing",
-    "\\kivy-prototype\\kivy-tests\\drawing-with-stencil",
-    "\\kivy-prototype\\kivy-tests\\key-detection-sample",
-    "\\kivy-prototype\\kivy-tests\\stencil-sample",
     "\\kivy-prototype\\kivy-tutorials",
     "\\solution"
   ],
-  "SelectedNode": "\\solution\\setup.txt",
   "PreviewInSolutionExplorer": true
 }
