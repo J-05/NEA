@@ -63,8 +63,10 @@ class MyApp(App):
     def build(self):
         my_cursor = SelectionCursorCircle((100, 100), (50, 50), (255, 255, 0))
         my_cursor.draw()
+        my_cursor2 = SelectionCursorCircle((50, 50), (50, 50), (255, 0, 0))
+        my_cursor2.draw()
 
-        return my_cursor
+        return my_cursor2
 
 if __name__ == "__main__":
     MyApp().run()
