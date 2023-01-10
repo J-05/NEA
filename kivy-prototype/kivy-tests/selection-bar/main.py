@@ -1,5 +1,5 @@
 from kivy.app import App
-from kivy.widget import Widget
+from kivy.uix.widget import Widget
 
 class SelectionBar(Widget):
     def __init__(self, **kwargs):
